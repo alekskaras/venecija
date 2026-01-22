@@ -1,0 +1,592 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: bisque;
+}
+
+header {
+  background-color: #01446e;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-left: 20px;
+}
+a:active,
+a.active {
+  color: bisque;
+}
+nav {
+  margin-right: 20px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+li {
+  position: relative;
+}
+
+a {
+  display: block;
+  padding: 15px 20px;
+  text-decoration: none;
+  color: #fff;
+}
+a:hover {
+  color: bisque;
+}
+.dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #01446e;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+li:hover .dropdown {
+  display: block;
+}
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 4em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  color: #01446e;
+}
+#event {
+  text-align: center;
+}
+
+.invisible-table {
+  width: 97%;
+  max-width: 600px;
+  margin: 0 auto;
+  border-spacing: 10px;
+  border-collapse: separate;
+}
+
+td {
+  width: 400px;
+  height: 200px;
+  padding: 10px;
+  text-align: center;
+  border: none;
+}
+
+.cell1 {
+  background-color: #00ffbf;
+}
+
+.cell2 {
+  background-color: #6697cc;
+}
+
+.cell3 {
+  background-color: #fff766;
+}
+
+.cell4 {
+  background-color: #ff6666;
+}
+
+.imagesi {
+  width: 500px;
+  height: 400px;
+  display: block;
+}
+.image-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.image-container a {
+  display: inline-block;
+  margin: 2px;
+}
+
+footer {
+  background-color: #01446e;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.footer-text {
+  margin: 0;
+  font-size: 1.2em;
+}
+.page-content {
+  display: flex;
+}
+
+.text-section {
+  flex: 1;
+  padding: 20px;
+  text-indent: 5%;
+  font-weight: 600;
+  font-variant: normal;
+  text-decoration: solid;
+  text-align: justify;
+}
+
+.image-section {
+  flex: 1;
+  padding: 20px;
+}
+
+.history {
+  max-width: 100%;
+  height: auto;
+}
+.architecture {
+  width: 60vw;
+  margin: 5vh auto;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  text-align: justify;
+}
+
+.highlight-text {
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+}
+
+.italic-text {
+  font-style: italic;
+}
+
+.image-div {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.image-link {
+  display: inline-block;
+  margin: 10px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 1.5em;
+}
+
+.image-link img {
+  width: 400px;
+  height: 300px;
+}
+
+.image-link p {
+  margin: 0;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.trgovi-list {
+  width: 20%;
+}
+
+.trgovi-descriptions {
+  width: 50%;
+}
+
+.trgovi-images {
+  width: 30%;
+  text-align: center;
+}
+
+.trgovi-descriptions h3 {
+  color: #333;
+}
+
+.trgovi-images img {
+  width: 100%;
+  height: auto;
+}
+
+.trgovi-list ol {
+  list-style-type: none;
+  padding: 0;
+}
+
+.trgovi-list li {
+  margin-bottom: 10px;
+}
+
+.trgovi-descriptions {
+  padding: 0 20px;
+}
+
+.trgovi-images img {
+  width: 100%;
+  height: auto;
+}
+.hero-image {
+  background-image: url('img/slika17.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+  height: 50vh;
+}
+.traffic {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 10%;
+}
+.traffic-table {
+  width: 100%;
+  border: 3px solid rgb(124, 120, 120);
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.traffic-table caption {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.traffic-table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+.traffic-table th {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.traffic-table .vehicle-type,
+.traffic-table .percentage {
+  font-size: 0.9em;
+}
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: normal;
+}
+
+.left-section img {
+  max-width: 100%;
+  height: 100vh;
+  margin: 0;
+}
+
+.right-section {
+  text-align: left;
+  padding: 50px;
+  align-items: center;
+  max-width: 50%;
+  font-size: 16px;
+  line-height: -10%;
+}
+.gondole {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.gondole img {
+  width: 250px;
+  height: 250px;
+  margin: 0 10px;
+}
+.gondola-types ul {
+  list-style: none;
+  padding: 30px;
+  text-align: left;
+}
+
+.gondola-types li {
+  margin: 10px 0;
+}
+
+.gondola-types p {
+  margin: 5px 0;
+}
+.top-places ol {
+  list-style-type: decimal;
+  padding: 0;
+}
+
+.top-places li {
+  margin: 10px 0;
+  font-size: 1em;
+}
+
+.top-places strong {
+  font-weight: bold;
+}
+
+.top-places a {
+  text-decoration: none;
+  color: #3498db;
+}
+#restoran {
+  margin-right: 100px;
+}
+.hero-images {
+  background-image: url('img/slika22.JPG');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+  height: 50vh;
+}
+.karneval {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+article {
+  text-align: justify;
+}
+
+figure {
+  margin: 20px 0;
+  text-align: center;
+}
+
+figcaption {
+  font-style: italic;
+  margin-top: 10px;
+}
+
+aside {
+  float: right;
+  width: 30%;
+  margin-left: 20px;
+}
+
+aside h2 {
+  color: #3498db;
+}
+#karneval {
+  width: 500px;
+  height: 300px;
+}
+.cards {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.card {
+  width: 400px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.card > a {
+  display: block;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.card img {
+  width: 400px;
+  height: 300px;
+  margin-top: 10px;
+}
+.maske {
+  width: 80%;
+  display: flex;
+}
+
+.imgs {
+  width: 60%;
+  margin-left: 150px;
+}
+
+.text {
+  width: 100%;
+  padding-left: 60px;
+  box-sizing: border-box;
+  margin-bottom: 10%;
+  text-align: justify;
+  line-height: normal;
+}
+
+#maska {
+  color: #333;
+}
+
+.mimg {
+  height: 500px;
+  display: block;
+  width: 600px;
+}
+
+.card > a:hover {
+  color: #3c72e7;
+}
+
+.card + .card {
+  margin-left: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav {
+    margin-top: 10px;
+  }
+
+  ul {
+    flex-direction: column;
+  }
+
+  li {
+    margin-bottom: 5px;
+  }
+
+  a {
+    padding: 10px 15px;
+  }
+
+  .dropdown {
+    position: static;
+    display: none;
+    background-color: #01446e;
+    box-shadow: none;
+  }
+
+  li:hover .dropdown {
+    display: flex;
+    flex-direction: column;
+    position: static;
+    width: 100%;
+  }
+
+  .dropdown a {
+    padding: 10px 20px;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+  }
+  .dropdown a:hover {
+    color: bisque;
+  }
+  .invisible-table {
+    max-width: 100%;
+  }
+
+  td {
+    width: 50%;
+    height: auto;
+  }
+
+  .imagesi {
+    width: 100%;
+    margin: 5px;
+  }
+  .page-content {
+    flex-direction: column;
+  }
+
+  .image-section {
+    order: -1;
+  }
+  .image-link img {
+    width: 250px;
+    height: 250px;
+  }
+  .content {
+    flex-direction: column;
+  }
+
+  .trgovi-list,
+  .trgovi-descriptions,
+  .trgovi-images {
+    width: 100%;
+  }
+
+  .trgovi-descriptions {
+    padding: 0;
+  }
+  .traffic-table {
+    font-size: 0.8em;
+    margin-bottom: 30%;
+  }
+  .main-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .right-section {
+    margin: 0;
+    text-align: justify;
+    max-width: 100%;
+  }
+  .gondole {
+    flex-direction: column;
+  }
+
+  .gondole img {
+    margin: 10px 0;
+  }
+  .karneval {
+    max-width: 400px;
+    margin: 15px;
+  }
+
+  aside {
+    float: none;
+    width: 100%;
+    margin-left: 0;
+  }
+  #karneval {
+    width: 300px;
+    height: 300px;
+  }
+  .card img {
+    width: 160px;
+    margin-bottom: 20%;
+  }
+  .maske {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .imgs {
+    width: 80%;
+    margin-left: 60px;
+  }
+
+  .mimg {
+    height: 200px;
+    display: block;
+    width: 250px;
+  }
+}
